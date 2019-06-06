@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(90deg, #0200ac, #000168) no-repeat;
+    height: 1000px;
+}
+@media (max-width: 991px) {
+    .lk {
+        display: none;
+    }
+
+    .menu__item {
+        margin-bottom: 5px;
+    }
+    .menu .menu__item a{
+        font-size: 15px;
+    }
+}
+.logo img {
+    width: 8%;
+    height: 6%;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.bord {
+    padding-right: 18px;
+    padding-left: 18px;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    transition: all 0.6s ease;
+}
+
+.bord:hover {
+    padding-right: 18px;
+    padding-left: 18px;
+    border-left: 2px solid #949494;
+    border-right: 2px solid #949494;
+    transition: all 0.6s ease;
+}
+
+.menu {
+    text-align: center;
+    margin-left: 2%;
+}
+.menu .menu__item {
+    margin-right: 12px;
+}
+.menu .menu__item a {
+    text-decoration: none;
+    font-family: 'Museo Sans Cyrl 900';
+    color: #FFF;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 900;
+    transition: all 0.6s ease;
+}
+.menu .menu__item a:hover {
+    color: #949494;
+    transition: all 0.6s ease;
+}
+
