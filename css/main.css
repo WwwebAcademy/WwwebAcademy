@@ -11,12 +11,12 @@ body {
         margin-bottom: 5px;
     }
     .menu .menu__item a{
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 @media (max-width: 321px) {
     .menu .menu__item a{
-        font-size: 20px;
+        font-size: 23px;
     }
 }
 .logo img {
