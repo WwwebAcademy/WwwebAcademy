@@ -16,7 +16,7 @@ body {
 }
 @media (max-width: 321px) {
     .menu .menu__item a{
-        font-size: 23px;
+        font-size: 26px;
     }
 }
 .logo img {
@@ -45,7 +45,6 @@ body {
 
 .menu {
     text-align: center;
-    margin-left: 2%;
 }
 .menu .menu__item {
     margin-right: 12px;
@@ -55,7 +54,7 @@ body {
     font-family: 'Museo Sans Cyrl 900';
     color: #FFF;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 900;
     transition: all 0.6s ease;
 }
