@@ -63,3 +63,9 @@ body {
     transition: all 0.6s ease;
 }
 
+.slider{
+    transition: all ease 1s;
+    margin-top: 100px;
+    background-color: #FFF;
+    border-radius: 30px;
+}
