@@ -1,0 +1,252 @@
+body {
+    background: linear-gradient(90deg, rgb(2, 0, 172), rgb(0, 1, 104)) no-repeat;
+}
+
+.header-logo {
+    width: 127px;
+    height: 54px;
+    margin-left: 720px;
+    margin-top: 53px;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 29px;
+    text-decoration: none;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a:hover {
+    color: #939393;
+}
+
+nav {
+    text-align: center;
+    margin-top: 33px;
+}
+
+.main-header {
+    position: relative;
+    right: 20px;
+}
+
+.about-header {
+    position: relative;
+    left: 20px;
+}
+
+.active,
+.completed {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 29px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 80px;
+}
+
+.disto {
+    background: linear-gradient(90deg, rgb(119, 88, 248), rgb(159, 36, 241));
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.disto p {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 140px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.disto,
+.div-2,
+.div-3,
+.div-4,
+.div-5,
+.div-6,
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 40px 5px black;
+}
+
+.div-2,
+.div-5,
+.item-2,
+.item-5,
+.item-6 {
+    margin-left: 390px;
+    margin-top: -300px;
+}
+
+.div-3,
+.div-6,
+.item-3,
+.item-6 {
+    margin-left: 790px;
+    margin-top: -300px;
+}
+
+.div-4,
+.item-4 {
+    margin-top: 90px;
+}
+
+.common,
+.container {
+    margin-left: 210px;
+}
+
+.disto-a {
+    text-decoration: none;
+}
+
+.logo-bottom {
+    height: 60px;
+    position: relative;
+    left: 180px;
+    bottom: -50px;
+}
+
+.main-footer,
+.proects-footer,
+.about-footer {
+    font-size: 29px;
+    color: white;
+    text-decoration: none;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main-footer {
+    position: relative;
+    right: -800px;
+    bottom: -30px;
+}
+
+.proects-footer {
+    position: relative;
+    right: -820px;
+    bottom: -30px;
+}
+
+.about-footer {
+    position: relative;
+    right: -840px;
+    bottom: -30px;
+}
+
+footer {
+    margin-top: 120px;
+    background-color: #000149;
+    height: 160px;
+    width: 1520px;
+    position: relative;
+    right: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .header-logo {
+        margin-left: 410px;
+        margin-right: 410px;
+    }
+
+    .common div,
+    .container div {
+        width: 250px;
+        position: relative;
+        right: 200px;
+    }
+
+    .div-2,
+    .div-5,
+    .item-2,
+    .item-5 {
+        left: -260px;
+    }
+
+    .div-3,
+    .div-6,
+    .item-3,
+    .item-6 {
+        left: -330px;
+    }
+
+    footer {
+        width: 960px;
+        height: 120px;
+    }
+
+    .logo-bottom {
+        top: 35px;
+        left: 80px;
+    }
+
+    footer a {
+        left: 360px;
+        top: 15px;
+    }
+
+    .main-footer {
+        margin-right: 20px;
+    }
+
+    .about-footer {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-logo {
+        margin-left: 290px;
+        margin-right: 290px;
+    }
+
+    .common div,
+    .container div {
+        width: 200px;
+    }
+
+    .div-2,
+    .div-5,
+    .item-2,
+    .item-5 {
+        left: -320px;
+    }
+
+    .div-3,
+    .div-6,
+    .item-3,
+    .item-6 {
+        left: -460px;
+    }
+
+    footer {
+        width: 768px;
+
+    }
+
+    footer a {
+        left: 180px;
+    }
+}
