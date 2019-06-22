@@ -1,0 +1,448 @@
+/*nav-menu*/
+body {
+    background: linear-gradient(90deg, rgb(2, 0, 172), rgb(0, 1, 104)) no-repeat;
+}
+
+.logo {
+    width: 127px;
+    height: 54px;
+    margin-left: 720px;
+    margin-top: 53px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 33px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 29px;
+    text-decoration: none;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main {
+    position: relative;
+    right: 20px;
+}
+
+.about {
+    position: relative;
+    left: 20px;
+}
+
+a:hover {
+    color: #939393;
+}
+
+img {
+    cursor: pointer;
+    width: 128px;
+    height: 53px;
+}
+
+
+
+/*carousel*/
+.img {
+    background: #fff;
+    border-radius: 50px;
+    margin-left: 195px;
+    margin-right: 195px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 65px;
+    margin-top: 65px;
+}
+
+/*about wwweb*/
+.wwweb {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 27px;
+
+}
+
+.aboutwwweb {
+    background: #fff;
+    border-radius: 50px;
+    margin-left: 195px;
+    margin-right: 195px;
+    margin-top: 65px;
+    height: 250px;
+    margin-bottom: 65px;
+}
+
+.aboutwwweb p {
+    text-align: center;
+    padding: 30px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.stages {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 27px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.idea {
+    height: 330px;
+    width: 330px;
+    margin-left: 190px;
+}
+
+.design,
+.dev {
+    height: 330px;
+    width: 330px;
+    margin-left: 50px;
+}
+
+.how {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 27px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.divstgs {
+    margin-bottom: 65px;
+}
+
+.gotoprcts,
+.request,
+.msg {
+    background-color: #fff;
+    width: 1110px;
+    margin-left: 195px;
+    margin-right: 195px;
+    height: 65px;
+    border-radius: 30px;
+}
+
+.gotoprcts p {
+    padding: 20px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+}
+
+.request p {
+    padding: 20px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+}
+
+.msg p {
+    padding: 20px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+}
+
+.arrow {
+    position: relative;
+    left: 1320px;
+    top: -130px;
+    height: 110px;
+}
+
+.arrow2 {
+    position: relative;
+    top: -50px;
+    left: -70px;
+    height: 110px;
+}
+
+.inreturn {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.exp,
+.know,
+.proect {
+    height: 330px;
+    width: 330px;
+}
+
+.exp {
+    margin-left: 190px;
+}
+
+.know,
+.proect {
+    margin-left: 50px;
+}
+
+.msg {
+    margin-bottom: -80px;
+}
+
+footer {
+    background-color: #000149;
+    height: 160px;
+    width: 1520px;
+    position: relative;
+    right: 10px;
+}
+
+.logo-bottom {
+    height: 60px;
+    position: relative;
+    left: 180px;
+    bottom: -50px;
+}
+
+.return {
+    margin-bottom: 120px;
+}
+
+.main-footer,
+.proects-footer,
+.about-footer {
+    font-size: 29px;
+    color: white;
+    text-decoration: none;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main-footer {
+    position: relative;
+    right: -800px;
+    bottom: -30px;
+}
+
+.proects-footer {
+    position: relative;
+    right: -820px;
+    bottom: -30px;
+}
+
+.about-footer {
+    position: relative;
+    right: -840px;
+    bottom: -30px;
+}
+
+@media screen and (max-width: 960px) {
+    .main-footer {
+        left: 320px;
+    }
+
+    .proects-footer {
+        left: 350px;
+    }
+
+    .about-footer {
+        left: 380px;
+    }
+
+    .logo {
+        margin-left: 410px;
+        margin-right: 410px;
+    }
+
+    .aboutwwweb p {
+        font-size: 15px;
+    }
+
+    .aboutwwweb {
+        height: 190px;
+    }
+
+    .idea,
+    .design,
+    .dev {
+        width: 250px;
+
+    }
+
+    .idea {
+        margin-left: 40px;
+    }
+
+    .gotoprcts,
+    .request,
+    .msg {
+        width: 600px;
+    }
+
+    .exp,
+    .know,
+    .proect {
+        width: 250px;
+    }
+
+    .exp {
+        margin-left: 40px;
+    }
+
+    .arrow {
+        position: relative;
+        left: 800px;
+    }
+
+    footer a {
+        left: 400px;
+    }
+
+    footer {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .logo {
+        margin-left: 290px;
+        margin-right: 290px;
+    }
+
+    .img {
+        width: 600px;
+        margin: 40px;
+        margin-left: 50px;
+        height: 200px;
+        position: relative;
+        top: -60px;
+        margin-top: 100px;
+    }
+
+    .aboutwwweb {
+        width: 600px;
+        margin-left: 55px;
+        margin-bottom: 20px;
+        position: relative;
+        top: -120px;
+    }
+
+    .idea,
+    .design,
+    .dev {
+        width: 200px;
+        height: 250px;
+    }
+
+    .design {
+        position: relative;
+        bottom: 180px;
+        right: 30px;
+    }
+
+    .dev {
+        position: relative;
+        right: 60px;
+        bottom: 140px;
+    }
+
+    footer {
+        width: 768px;
+    }
+
+    footer a {
+        top: 40px;
+    }
+
+    .main-footer {
+        left: 130px;
+    }
+
+    .about-footer {
+        left: 10px;
+    }
+
+    .proects-footer {
+        left: 290px;
+    }
+
+    .logo-bottom {
+        left: 60px;
+    }
+
+    .idea {
+        position: relative;
+        bottom: 180px;
+        margin-left: 20px;
+    }
+
+    .gotoprcts,
+    .request,
+    .msg {
+        position: relative;
+        bottom: 170px;
+        right: 150px;
+        width: 600px;
+    }
+
+    .exp,
+    .know,
+    .proect {
+        width: 200px;
+        height: 250px;
+    }
+
+    .exp {
+        margin-left: -10px;
+    }
+
+    .how {
+        position: relative;
+        bottom: 190px;
+    }
+
+    .dev {
+        margin-bottom: 40px;
+    }
+
+    .wwweb {
+        position: relative;
+        top: -70px;
+    }
+
+    .stages {
+        position: relative;
+        top: -120px;
+    }
+
+    .arrow,
+    .arrow2 {
+        display: none;
+    }
+
+    .inreturn {
+        position: relative;
+        bottom: 20px;
+    }
